@@ -19,4 +19,5 @@ print("")
 
 print("The conversion from str to int can also be done on the final line.")
 print("So str(int(myNumber)+5) would have had the same effect and saved the")
-print("conversion of 'myNumber = str(input())' line.")
+print("conversion of 'myNumber = int(input())' line. However, the 'myNumber")
+print("=input()' would need to remain.")
