@@ -8,7 +8,8 @@ choices = []
 # fsck it. Use "split". In a function. Which we've not studied yet. Arse.
 
 
-def spit(string):  # is it necessary to actually define this function? Can't we just use verb = list(verb_a.split(" ")) later?
+def spit(string):
+    # is it necessary to actually define this function? Can't we just use verb = list(verb_a.split(" ")) later?
     li = list(string.split(" "))  # so the string will be verb_a
     return li
 
@@ -56,13 +57,11 @@ answer_yes = ["yes", "kinda", "a bit", "slightly", "loads", "yeah", "yup", "yus"
 # we'll use it after the next input. Also handy to have for positive responses later.
 
 print(f"You've got a {noun_a} and you've tried to {verb_a}... Is this helping?")
-helping = input() or "no"
+helping = input("> ") or "no"
 helping = helping.lower()
-print(helping)
 
 # print(verb[0])
-
-#        2/ should also check if verb ends in e.
+#        2/ should also check if verb ends in e. !FIXED! kind of, with the LOL correction below.
 #        3/ Also should check if "it" is present -- so choices[1] could be something like "put it up your bum"
 # solution to 3 - rephrase line
 if lol:
