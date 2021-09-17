@@ -66,17 +66,17 @@ helping = helping.lower()
 # solution to 3 - rephrase line
 if lol:  # so if it's verbing
     if helping in answer_yes:  # so if result of the input for helping is in the list
-        print(f"Great! {str(verb[0])} the {noun_a}s is helping!")
+        print(f"Great! {str(verb[0])} the {noun_a} is helping!")
     else:
         # think we may need to check noun_a for an "a" or "the"
-        print(f"OK, so {str(verb[0])} the {noun_a}s wasn't such a great idea.")
+        print(f"OK, so {str(verb[0])} the {noun_a} wasn't such a great idea.")
 
 if not lol:
     if helping in answer_yes:  # so if result of the input for helping is in the list
-        print(f"Great! {str(verb[0])}ing the {noun_a}s is helping!")
+        print(f"Great! {str(verb[0])}ing the {noun_a} is helping!")
     else:
         # think we may need to check noun_a for an "a" or "the"
-        print(f"OK, so {str(verb[0])}ing the {noun_a}s wasn't such a great idea.")
+        print(f"OK, so {str(verb[0])}ing the {noun_a} wasn't such a great idea.")
 
 # LET'S END THIS NOW!
 print("Thanks for playing... Goodbye!")
