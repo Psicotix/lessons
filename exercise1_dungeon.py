@@ -1,3 +1,5 @@
+import time
+
 # creating Choices starting point - list with user text input with specified contents.
 # We can remove parts of the list once they've been used and we don't need to use
 # the orange they tried to set fire to once it's been eaten. Or something.
@@ -55,13 +57,16 @@ if "torch" in noun_a:
 You hold the torch in front of you, and try to switch it on. You hear
 a fizz and a click and for a few seconds you cast a soft light around
 you.
-
+""")
+    time.sleep(2)
+    print("""          
 You see reflections from the new light source on the ground, and you seem to be in
 a room that stretches a couple of meters in front of you. There are boxes
 casting shadows, and no windows. 
-
+""")
+    time.sleep(2)
+    print("""
 The torch fades and dies. 
-
 What do you do? 
 """)
     choices.append(input("> ").lower())
