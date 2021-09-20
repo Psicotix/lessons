@@ -10,9 +10,11 @@ choices = []
 # fsck it. Use "split". In a function. Which we've not studied yet. Arse.
 # 18 September: NOT NECESSARY!
 # def spit(string):
+
 # is it necessary to actually define this function? Can't we just use verb = list(verb_a.split(" ")) later?
 # li = list(string.split(" "))  # so the string will be verb_a
 # return li
+
 
 # so then we go and split verb_a which we extract from choices into verb
 # INTRO:
@@ -32,6 +34,7 @@ What do you use?
 item_01 = ["paperclip", "paper clip", "rubber band", "rock", "box of matches", "torch"]
 # INPUT -->
 choices.append(input("> ").lower())
+
 
 # provide a variable for next line:
 noun_a = choices[0]
@@ -88,7 +91,6 @@ elif "ing" in verb[0]:
     print("True")
     ing = True
 # OMFG - you can't ping something without pinging it.
-
 else:
     ing = False
 
