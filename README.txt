@@ -1,1 +1,1 @@
-Exercise files for just learning stuff related to Python 3.
+The adventure of fixing the adventure with Git.
