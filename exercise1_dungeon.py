@@ -82,6 +82,10 @@ choices.append(input("> ").lower())
 verb_a = choices[1]
 # verb = spit(verb_a) # <-- this function is unnecessary, unless we need to do it again, but it's not much
 # code and typing in the command is a better form of learning.
+
+# ANOTHER FUCKING ISSUE!
+# verbs: shake, wake, slake - ending in e, need to have e removed and ing added
+# verbs: fap, slap, stab, blob, fob, need another last consonant and ing.
 verb = list(verb_a.split(" "))
 # to do: 1/ should really check if verb includes -ing already. They could be blowing it out.
 if "ping" == verb[0]:
